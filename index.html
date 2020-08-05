@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Minimilistic</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/popup.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body id="home">
+        <section id="homepage">
+            <div class="container title">
+                <div class="row">
+                    <div class="container">
+                    <h1 data-aos="fade-right" class="heading">hackCBS 3.0</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                    <p data-aos="fade-right" class="sub_heading">17th - 18th October</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                    <p data-aos="fade-right" class="sub_heading">LEARN.TEACH.HACK.WIN</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <center><button data-aos="flip-up" type="button" class="btn btn-warning button">Notify Me <i class="fa fa-paper-plane" aria-hidden="true"></i></button></center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="social_icons">
+            <div class="container">
+                <div class="row spacing">
+                    <div class="container">
+                        <p data-aos="fade-right" class="fa-icons">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="pop-up">
+            <div class="content">
+                <div class="container">
+                    <div class="dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+
+                    <span class="close">close</span>
+
+                    <div class="title">
+                        <h1>subscribe</h1>
+                    </div>
+
+                    <img src="assets/images/undraw_arrived_f58d.svg" style="width: 50%;" alt="Email">
+
+                    <div class="subscribe">
+                        <h1>Subscribe to get the latest <span>news &amp; updates</span>.</h1>
+
+                        <form>
+                            <input type="email" placeholder="Your email address">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="assets/js/popup.js"></script>
+        <script src="assets/js/three.r95.min.js"></script>
+        <script src="assets/js/vanta.net.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script>
+            VANTA.NET({
+                el: "#home",
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xedb500,
+                backgroundColor: 0x0,
+                points: 6.00,
+                maxDistance: 18.00,
+                spacing: 16.00,
+                
+            })
+        </script>
+    </body>
+</html>
