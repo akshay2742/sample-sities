@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+    background-color: #000;
+    font-family: "Fira Code", monospace;
+    display: -webkit-box;
+    display: flex;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.heading{
+    float: left;
+    font-size: 80px;
+    font-weight: 900;
+    color: #f9a620;
+}
+.sub_heading{
+    float: left;
+    font-size: 25px;
+    font-weight: 900;
+    color: #f9a620;
+}
+/* Button */
+.button{
+    float: left;
+}
+.btn {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Social_icons */
+
+#social_icons{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.fa-facebook,.fa-instagram,.fa-linkedin,.fa-twitter{
+    color: #eee;
+    font-size: 30px;
+    float: left;
+    margin-left: 8px;
+}
+a i:hover{
+    color: #f9a620; 
+}
+.spacing{
+    margin-top: 30px;
+}
+/* footer*/
+footer{
+    background-color: #f9a620;
+}
+.footer_para{
+    text-align: center;
+    font-size: 20px;
+}
+@media only screen and (max-width:768px){
+    .heading {
+        font-size: 50px;
+        font-weight: 900;
+        color: #f9a620;
+    }
+    .btn {
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .button{
+        left: 0%;
+    }
+    .sub_heading {
+        font-size: 25px;
+        font-weight: 900;
+        color: #f9a620;
+        text-align: left;
+    }
+}
